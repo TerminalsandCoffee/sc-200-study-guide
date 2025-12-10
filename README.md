@@ -6,15 +6,43 @@ This repo documents my path to passing the Microsoft SC-200 (Security Operations
 
 
 ## Goals
-- Pass SC-200 by <target month/year>
+- Pass SC-200 by **end of January 2025**
 - Build real Sentinel + KQL detection labs
 - Detection Engineering foundation
+- Hands-on experience with Microsoft security stack
 
+## Repository Structure
 
-## Structure
-- `roadmap/` – study plan and schedule
-- `notes/` – domain-based notes from docs, labs, and videos
-- `kql-queries/` – hunting and detection queries
-- `labs/` – hands-on Sentinel and Defender scenarios
-- `cheatsheets/` – exam cram sheets and quick references
-- `scripts/` – PowerShell / CLI helpers for automation
+### 📚 Study Materials
+- `roadmap/` – Study plan, schedule, and exam objectives breakdown
+- `notes/` – Domain-based notes organized by SC-200 exam areas
+- `cheatsheets/` – Quick reference guides and exam cram sheets
+
+### 🔍 Detection & Hunting
+- `kql-queries/` – KQL queries for detection rules, hunting, and workbooks
+- `detection-rules/` – Analytics rules, scheduled queries, and NRT rules
+- `hunting/` – Proactive threat hunting queries and scenarios
+
+### 🛠️ Hands-On Practice
+- `labs/` – Hands-on Sentinel and Defender scenarios
+- `playbooks/` – Logic App playbooks and automation workflows
+- `scripts/` – PowerShell, Azure CLI, and automation helpers
+
+### 📊 Workbooks & Dashboards
+- `workbooks/` – Sentinel workbooks and custom dashboards
+- `notebooks/` – Jupyter notebooks for advanced analysis
+
+### 🔐 Domain-Specific
+- `sentinel/` – Microsoft Sentinel configuration, data connectors, and management
+- `defender-cloud/` – Microsoft Defender for Cloud scenarios
+- `m365-defender/` – Microsoft 365 Defender (Email, Identity, Cloud Apps)
+- `defender-endpoint/` – Microsoft Defender for Endpoint (EDR)
+- `entra-id/` – Microsoft Entra ID Identity Protection and monitoring
+
+### 🚨 Incident Response
+- `incidents/` – Incident response procedures, templates, and case studies
+- `automation/` – SOAR automation, playbooks, and orchestration
+
+### 📝 Practice & Assessment
+- `practice-exams/` – Practice questions and exam simulations
+- `scenarios/` – Real-world attack scenarios and detection challenges
